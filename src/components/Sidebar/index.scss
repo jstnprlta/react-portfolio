@@ -1,14 +1,14 @@
 .nav-bar {
-    background: rgb(0, 45, 45);
+    background: rgb(0, 32, 32);
     width: 12%;
     height: 100%;
-    position: absolute;
+    position:absolute;
     top: 0;
-    z-index: 3;
+    z-index: auto;
     min-height: 500px;
 
     .logo {
-        display: block;
+        display:px;
         padding: 8px 0;
 
         img {
@@ -22,7 +22,7 @@
     nav {
         display: block;
         text-align: center;
-        position:relative;
+        position:sticky;
         height: 150px;
         top: 50%;
         margin-top: -120px;
@@ -30,19 +30,19 @@
 
         a {
             font-size: 15px;
-            color: rgb(8, 120, 155);
+            color: rgb(127, 0, 0);
             display: block;
             line-height: 51px;
             height: 51px;
             position: relative;
-            text-decoration: underline;
+            text-decoration:none;
 
             i {
                 transition: all 0.2s ease-out;
             }
 
             &:hover {
-                color: goldenrod;
+                color: rgb(182, 130, 0);
 
                 svg {
                     opacity: 0;
@@ -87,7 +87,7 @@
 
         a.active {
             svg {
-                color: rgb(203, 135, 0);
+                color: rgb(162, 108, 0);
             }
         }
     }
@@ -107,6 +107,10 @@
                 display: block;
                 font-size: 20px;
                 line-height: 5px;
+
+                &:hover svg{
+                    color:darkgreen
+                }
                 
             }
         }

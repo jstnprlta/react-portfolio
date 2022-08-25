@@ -9,9 +9,9 @@ html {
 body {
   margin: 0;
   font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: rgb(207, 207, 207);
-  background: darkslategrey;
-  overflow: hidden;
+  color: rgb(151, 151, 151);
+  background: rgb(0, 0, 0);
+  overflow: visible;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
